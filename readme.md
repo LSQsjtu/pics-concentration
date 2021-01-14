@@ -7,9 +7,9 @@ rev.py 调试用文件，可以读取judge.cpp输出的out.txt并将其还原成
 
 # 大致使用方法：
 
-g++ -O2 judge.cpp -o judge  
-./judge < Snow_Leopard/1.in  
-python3 rev.py  
+>g++ -O2 judge.cpp -o judge  
+>./judge < Snow_Leopard/1.in  
+>python3 rev.py  
 
 提交时，请将compress.hpp内的所有内容粘贴至提交框。
 
